@@ -1,22 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "file_system.h"
 
 int main() {
-	FILE* output_file = NULL;
-
-	output_file = fopen("test.txt", "r");
-
-	if (output_file == NULL) {
-		printf("Neuspjesno otvaranje datoteke!");
-		return 1;
-	}
-
-	char text[1000];
-	fscanf(output_file, "%s", text);
-
-	fclose(output_file);
-
-	printf("%s", text);
+	mount("test2");
+	disc_info();
 
 	return 0;
 }

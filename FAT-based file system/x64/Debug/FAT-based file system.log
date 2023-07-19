@@ -1,2 +1,4 @@
-﻿  main.c
+﻿  file_system.c
+  main.c
+  Generating Code...
   FAT-based file system.vcxproj -> C:\Users\zvoni\Desktop\FAT-based file system\x64\Debug\FAT-based file system.exe
