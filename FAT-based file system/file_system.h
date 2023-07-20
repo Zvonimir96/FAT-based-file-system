@@ -35,14 +35,20 @@ uint8_t file_alocation_table[NUMBER_OF_CLUSTERS];
 struct file {
 	char name[FILE_NAME_SIZE];
 	uint16_t size;
-	uint8_t first_cluster;
+	int8_t first_cluster;
 };
 
 struct file* directory_table;
 
 
-void mount(const char*);			// Open or create nwe file system
-void disc_info();					// Print disc info
-void set_default_fat();				// Set default state for file alocation table
+void mount(const char*);					// Open or create new file system
+void unmount();								// Save changes and close disk file
+struct file* open(const char*);				// Return file object
+void write(struct file*, const char*);		// Vrite data to clusters
+void close(struct file*);					// Close file
+
+int8_t get_empty_cluster();					// Return first free cluster, -1 if there are no available clusters
+void disc_info();							// Print disc info
+void set_default_fat();						// Set default state for file alocation table
 
 // void create_file(); // Mora dinamički alocirati memeoriju za file names i size
