@@ -1,4 +1,13 @@
 ﻿  file_system.c
-  main.c
-  Generating Code...
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(60,39): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(104,38): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(200,26): warning C4133: 'function': incompatible types - from 'char [20]' to 'file *'
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(202,14): warning C4098: 'write': 'void' function returning a value
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(218,15): warning C4098: 'write': 'void' function returning a value
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(232,17): warning C4267: '+=': conversion from 'size_t' to 'int16_t', possible loss of data
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(210,59): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(260,48): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(287,14): warning C4098: 'delete': 'void' function returning a value
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(294,21): warning C4090: 'function': different 'const' qualifiers
+C:\Users\zvoni\Desktop\FAT-based file system\FAT-based file system\file_system.c(325,30): warning C4028: formal parameter 1 different from declaration
   FAT-based file system.vcxproj -> C:\Users\zvoni\Desktop\FAT-based file system\x64\Debug\FAT-based file system.exe
