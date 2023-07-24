@@ -29,7 +29,6 @@ struct reserved_sector {
 uint8_t file_alocation_table[NUMBER_OF_CLUSTERS];
 
 
-// TODO on mora rasti 
 // Root directory region contains files metadata --------------------------	third cluster
 struct file {
 	char name[FILE_NAME_SIZE];
